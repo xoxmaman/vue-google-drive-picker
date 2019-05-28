@@ -1,0 +1,49 @@
+{
+  "name": "vue-google-drive-picker",
+  "main": "dist/VueGoogleDrivePicker.umd.min.js",
+  "types": "src/vue-google-drive-picker.d.ts",
+  "version": "0.1.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xoxmaman/vue-google-drive-picker.git"
+  },
+  "keywords": [
+    "vue",
+    "google",
+    "drive",
+    "gdrive",
+    "files",
+    "picker",
+    "chooser"
+  ],
+  "author": "Kobyzskoi Dmytryi <xoxmaman@gmail.com> (https://github.com/xoxmaman)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xoxmaman/vue-google-drive-picker/issues"
+  },
+  "homepage": "https://github.com/xoxmaman/vue-google-drive-picker",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build-bundle": "vue-cli-service build --target lib --name VueGoogleDrivePicker ./src/GoogleDrivePicker.vue"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-typescript": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "typescript": "^3.4.3",
+    "vue-template-compiler": "^2.6.10",
+    "vue-class-component": "^7.0.2",
+    "vue-property-decorator": "^8.1.0"
+  },
+  "files": [
+    "dist/*",
+    "src/*",
+    "*.json",
+    "*.js"
+  ]
+}
